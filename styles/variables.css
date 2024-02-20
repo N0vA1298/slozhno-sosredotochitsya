@@ -4,9 +4,6 @@
 */
 :root {
   --main-font: "IBM Plex mono";
-}
-
-:root {
   --main-text-color: #353430;
   --title-color: #ffc2e6;
   --title-shadow: #ff0070;

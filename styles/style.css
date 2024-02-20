@@ -125,10 +125,6 @@
   }
 }
 
-.title-decor {
-  background: var(--title-decor);
-}
-
 .header__theme-menu-button {
   border: transparent;
   padding: 0 12.5px 1px;
