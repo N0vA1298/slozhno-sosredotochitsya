@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сложно сосредоточиться</title>
     <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="icon" href="./images/favicon.ico">
-    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="./images/favicon.svg">
-    <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/dark.css">
     <link rel="stylesheet" href="./styles/light.css">
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./images/favicon.svg">
   </head>
 
   <body class="page">
@@ -45,8 +45,8 @@
       </nav>
         <h1 class="header__title">no focus</h1>
         <div class="container__p">
-          <p class="header__p title-decor">Что делать, когда не можешь делать ничего<br>
-          Или почему нам так сложно сконцентрироваться, особенно когда очень надо
+          <p class="header__p title-decor">Что делать, когда не можешь делать ничего
+            <span>Или почему нам так сложно сконцентрироваться, особенно когда очень надо</span>
           </p>
         </div>
     </header>
@@ -104,7 +104,7 @@
           </article>
           <article class="subsection-item">
             <h4 class="subsection-title subsection-title-small title-decor">Прогуляйтесь</h4>
-            <p class="subsection-text">Или даже пробегитесь. Лучше найти парк или лес: один эксперимент показал, что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается. Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. Но и простая двадцатиминутная прогулка — тоже отличный вариант.
+            <p class="subsection-text">Или даже пробегитесь. Лучше найти парк или лес: один эксперимент  <a href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" target="_blank" class="section__article-text-link">показал</a>, что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается. Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. Но и простая двадцатиминутная прогулка — тоже отличный вариант.
             </p>
           </article>
           <article class="subsection-item">
@@ -121,11 +121,23 @@
       </section>
       <section class="section-image">
         <h2 class="section__title image-title title-decor">А можно в картинках?</h2>
-        <img class="image" src="./images/sunset.png" alt="sunset" loading="lazy">
-        <img class="image" src="./images/ice-cream.png" alt="ice-cream" loading="lazy">
-        <img class="image" src="./images/tape.png" alt="tape" loading="lazy">
-        <img class="image" src="./images/books.png" alt="books" loading="lazy">
-        <img class="image" src="./images/street.png" alt="street" loading="lazy">
+        <ul class="section_image-list">
+          <li class="section_image-item">
+            <img src="./images/sunset.png" alt="Закат" loading="lazy" class="section__image" />
+          </li>
+          <li class="section_image-item">
+            <img src="./images/ice-cream.png" alt="Мороженное" loading="lazy" class="section__image" />
+          </li>
+          <li class="section_image-item">
+            <img src="./images/tape.png" alt="Кассета" loading="lazy" class="section__image" />
+          </li>
+          <li class="section_image-item">
+            <img src="./images/books.png" alt="Книги" loading="lazy" class="section__image" />
+          </li>
+          <li class="section_image-item">
+            <img src="./images/street.png" alt="Улица" loading="lazy" class="section__image" />
+          </li>
+        </ul>
       </section>
     </main>
 
